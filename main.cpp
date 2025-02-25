@@ -76,13 +76,13 @@ void calcAverage(student students[], int studentCnt, int testCnt){
 }
 void getLetterGrade(student students[], int studentCnt){
    for (int i = 0; i < studentCnt; i++) {
-          if (students[i].avg >= 90) {
+          if (students[i].avg >= 91) {
               students[i].grade = 'A';
-          } else if (students[i].avg >= 80) {
+          } else if (students[i].avg >= 81) {
               students[i].grade = 'B';
-          } else if (students[i].avg >= 70) {
+          } else if (students[i].avg >= 71) {
               students[i].grade = 'C';
-          } else if (students[i].avg >= 60) {
+          } else if (students[i].avg >= 61) {
               students[i].grade = 'D';
           } else {
               students[i].grade = 'F';
