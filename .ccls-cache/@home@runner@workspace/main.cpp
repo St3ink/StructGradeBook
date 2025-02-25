@@ -1,4 +1,6 @@
-/*This program will read how many students and tests are in the file, and then dynamically allocate the space and assign the data to a struct for the students. It then gets the Avg and letter grade for each student and then will display it in a table format. */
+/*This program will read how many students and tests are in the file, and then dynamically allocate
+the space and assign the data to a struct for the students. It then gets the Avg and letter grade 
+for each student and then will display it in a table format. */
 #include <iostream>
 #include <string>
 #include <fstream>
